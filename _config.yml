@@ -1,0 +1,181 @@
+person:
+  name: Siarhei Valasovich
+  hidden_tags:
+    - tag: "Senior Software Engineer"
+    - tag: "Lead Software Engineer"
+    - tag: "Tech Lead"
+    - tag: "Staff Software Engineer"
+    - tag: "Golang Software Engineer"
+    - tag: "Senior Backend Engineer"
+    - tag: "Staff Backend Engineer"
+    - tag: "Backend Lead"
+    - tag: "Backend"
+    - tag: "Distributed Systems Engineer"
+    - tag: "High-Load Systems"
+    - tag: "Technical Leadership"
+    - tag: "Architecture & Design"
+    - tag: "Go"
+    - tag: "Golang"
+    - tag: "REST API Design"
+    - tag: "SDK Development"
+    - tag: "Concurrency"
+    - tag: "Performance Optimization"
+    - tag: "Low Latency"
+    - tag: "Scalability"
+    - tag: "Fault Tolerance"
+    - tag: "Distributed Systems"
+    - tag: "Decentralized Systems"
+    - tag: "Decentralised Systems"
+    - tag: "P2P Networking"
+    - tag: "p2p"
+    - tag: "DHT"
+    - tag: "Consensus"
+    - tag: "DePIN"
+    - tag: "Blockchain"
+    - tag: "SQL"
+    - tag: "NoSQL"
+    - tag: "AWS"
+    - tag: "GCP"
+    - tag: "Docker"
+    - tag: "Git"
+    - tag: "CI/CD"
+    - tag: "Enterprise"
+    - tag: "Startup"
+    - tag: "Startup Environments"
+    - tag: "Cost Optimization"
+    - tag: "Load Testing"
+    - tag: "Java"
+    - tag: "Kotlin"
+    - tag: "Data Pipelines"
+    - tag: "Data Migration"
+    - tag: "Big Data"
+  depiction:
+  profession: Lead Software Engineer
+  location:
+  linkedin: siarhei-valasovich-bb8438162
+  email: svalasovich+cv@gmail.com
+  site: svalasovich.github.io/cv
+  telegram:
+  github: svalasovich
+  stackoverflow:
+  summary: Lead Software Engineer with 8+ years shipping systems that matter — from EVM/L2 integration and on-chain indexers to DePIN infrastructure, P2P network, and protocol design & implementation. I uncover real user needs, build the right thing, and deliver secure, scalable results.
+  summary_additional:
+
+publications:
+  - name: "Impossible Cloud Network: A Decentralized Internet Infrastructure Layer"
+    link: https://arxiv.org/abs/2510.04620
+
+career:
+  - position: Staff Software Engineer
+    link: https://console.icn.global
+    company: Impossible Cloud Network
+    location: Germany
+    logo_link: assets/icn_logo.png
+    dates: Jun 2023 - present
+    summary: DePIN project building a decentralized cloud platform that connects enterprise-grade hardware with users, providing AWS EC2-like compute power.
+    skills:
+      - skill: Golang
+      - skill: Huma, chi, GraphQL, gRPC
+      - skill: Base network, Ethereum, Filecoin, IPFS
+      - skill: Postgres, Redis
+      - skill: Kafka
+      - skill: AWS, Infura, Chainstack, Alchemy
+      - skill: TheGraph Subgraph, Substreams
+      - skill: Kubernetes, Prometheus
+    accomplishments:
+      - accomplishment: Contributed to the technical preparation for NFT & token sales (infrastructure, security checks, dry-runs)
+      - accomplishment: Launched the public Testnet as part of the marketing campaign
+      - accomplishment: Shipped the initial protocol release
+      - accomplishment: Provided technical leadership for a team of 2, delivering milestones on time
+      - accomplishment: Designed & implemented a secure P2P protocol
+      - accomplishment: Designed & implemented backup & disaster-recovery for core data
+      - accomplishment: Designed & developed a validator node
+      - accomplishment: Designed & implemented storage for proofs
+      - accomplishment: Contributed technical sections to the Whitepaper
+      - accomplishment: Designed & built data indexing and EVM integrations
+      - accomplishment: Multisig signer and one of the key custodians, reviewing and signing on-chain transactions to safeguard company funds.
+  - position: Lead Software Engineer
+    company: CERE Network
+    link: https://cere.io
+    logo_link: assets/cere_network_logo.jpeg
+    location: United States
+    dates: Oct 2021 - May 2023
+    summary: Customer Relation Management blockchain ecosystem in a Decentralized Data Cloud (DDC) optimizedfor service data integration and data collaborations, built on the scalable and heterogeneous platform of Polkadot. This DDC allows stakeholders to own and manage their data with full custody, making it platform that gives them 100% control over any data use or deployment.
+    skills:
+      - skill: Golang, Kotlin, JavaScript
+      - skill: Echo, gRPC
+      - skill: libp2p
+      - skill: AWS, DigitalOcean
+      - skill: Prometheus, Datadog, Grafana
+    accomplishments:
+      - accomplishment: Designed and implemented a decentralized, secure, sharded storage node optimized for high-throughput video streaming
+      - accomplishment: Built high-performance client SDKs in Go, Java/Kotlin, and JavaScript with a unified API surface
+      - accomplishment: Integrated the platform with the Polkadot network to leverage on-chain security and utility features
+      - accomplishment: Provided technical leadership for core products — storage node, decentralized CDN node, and analytics tools — delivering roadmap milestones end-to-end
+      - accomplishment: Achieved x2 storage performance after architectural redesign and I/O path optimization
+      - accomplishment: Designed and implemented a secure, high-throughput P2P protocol tailored for storage workloads
+      - accomplishment: Implemented anti-entropy mechanisms (e.g., Merkle/gossip reconciliation) to maintain node consistency under churn
+      - accomplishment: Designed and implemented cryptographic proofs for data replication, consistency, and content delivery, enforcing correctness and SLA guarantees
+      - accomplishment: "Company Hackathon — 2nd place (2022): delivered a user-activity observability MVP (I/O, per-data-type) for a decentralized storage system."
+  - position: Senior Data Engineer
+    link: https://www.epam.com/
+    company: EPAM
+    location: United States
+    logo_link: assets/epam_logo.png
+    dates: Mar 2020 - Oct 2021
+    summary: DataHub for a major US delivery company with data pipelines and machine learning to calculate optimal delivery routes
+    skills:
+      - skill: Java, JavaScript
+      - skill: Apache Beam
+      - skill: Spring Framework, RxJava2
+      - skill: Cassandra, MySQL, Couchbase
+      - skill: Kafka
+      - skill: GCP (BigQuery, Google Storage, Dataflow, Firestore, CLoud Function, Dataproc, Pub/Sub, CLoud Scheduler)
+      - skill: Jenkins, Maven
+      - skill: Kubernetes
+      - skill: Grafana, Prometheus, ELK
+    accomplishments:
+      - accomplishment: Optimized system architecture to save 10% in infrastructure spend, replacing high-cost components with lower-cost equivalents that met all requirements
+      - accomplishment: Delivered a low-code data-migration framework for Oracle→GCP with plug-in pipelines and schema-aware templates
+      - accomplishment: Optimized the data-persistence path, delivering 5% faster writes in production while maintaining reliability and SLAs
+      - accomplishment: Integrated new components with the legacy platform via an adapter/compatibility layer, enabling backward compatibility and a gradual rollout without disrupting existing consumers
+  - position: Senior Software Engineer
+    break: true
+    link: https://piesoft.us
+    company: PieSoft
+    location: United States
+    logo_link: assets/piesoft_logo.png
+    dates: May 2017 - Apr 2020
+    summary: Scaled a GPU-accelerated Wi-Fi coverage algorithm—modeling building heights and wall materials—from a single node to a distributed cluster, enabling citywide simulations.
+    skills:
+      - skill: Java, Kotlin
+      - skill: Spring Framework
+      - skill: MySQL, CouchDB, Redshift
+      - skill: AWS
+      - skill: Spark, Hadoop
+    accomplishments:
+      - accomplishment: Distributed GPU-based algorithms to evaluate thousands of placement scenarios in parallel
+      - accomplishment: Built the execution platform and a web console for monitoring and control
+
+technicalSkills:
+  list:
+    - tr: "Golang / Java / Kotlin"
+    - tr: "libp2p / huma / chi / Echo / gRPC"
+    - tr: "SQL: MySQL / PostgreSQL"
+    - tr: "NoSQL: Redis / Cassandra / MongoDB / DynamoDB / HBase / Prometheus"
+    - tr: "REST / GraphQL"
+    - tr: "AWS / GCP"
+    - tr: "Grafana / Kibana"
+    - tr: "Docker / Kubernetes"
+    - tr: "Spark / Hadoop / HDFS"
+    - tr: "Kafka"
+    - tr: "Technical leadership"
+
+education:
+  - name: Belarusian State University of Informatics and Radioelectronics
+    sub_name: BSUIR
+    degree: Master's Degree, Computer Science,
+    location: Belarus
+    dates: 2021-2024
+    link: https://www.bsuir.by/en/
+    logo_link: assets/bsuir_logo.png

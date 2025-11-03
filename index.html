@@ -1,0 +1,309 @@
+---
+---
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Meta Information -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="{{ site.name }}">
+    <meta name="description" content="{{ site.name }}'s CV">
+    <title>{{ site.person.name }}'s CV</title>
+
+    <!-- Stylesheets -->
+    <link href="https://netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css" rel="stylesheet" media="all">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="assets/cv.css" rel="stylesheet">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Lusitana:400,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Archivo+Black" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300" rel="stylesheet" type="text/css">
+
+    <!-- Web Font Loader -->
+    <script type="text/javascript">
+        WebFontConfig = {
+            google: {families: ['Passion+One:400,700:latin']}
+        };
+        (function () {
+            var wf = document.createElement('script');
+            wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+            wf.type = 'text/javascript';
+            wf.async = 'true';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(wf, s);
+        })();
+    </script>
+
+    <!-- Print Styles -->
+    <style>
+        @media print {
+            @page {
+                size: auto;
+                margin: 0mm;
+            }
+            body {
+                margin: 0;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <!-- Header Section -->
+        <div class="row header">
+            <div class="col-xs-6">
+                <h1 class="name">{{ site.person.name }}</h1>
+                <span class="profession">{{ site.person.profession }}</span>
+            </div>
+
+            <div class="col-xs-5">
+                <ul class="list-unstyled">
+                    {% if site.person.location %}
+                    <li><i class="fa fa-map-marker"></i> {{ site.person.location }}</li>
+                    {% endif %}
+
+                    {% if site.person.citizenship %}
+                    <li><i class="fa fa-flag-o"></i> {{ site.person.citizenship }}</li>
+                    {% endif %}
+
+                    {% if site.person.email %}
+                    <li><i class="fa fa-envelope-o"></i> <a href="mailto:{{ site.person.email }}">{{ site.person.email }}</a></li>
+                    {% endif %}
+
+                    {% if site.person.phone %}
+                    <li><i class="fa fa-phone"></i> {{ site.person.phone }}</li>
+                    {% endif %}
+
+                    {% if site.person.site %}
+                    <li><i class="fa fa-laptop"></i> <a href="http://{{ site.person.site }}">{{ site.person.site }}</a></li>
+                    {% endif %}
+
+                    {% if site.person.github %}
+                    <li><i class="fa fa-github"></i> <a href="https://github.com/{{ site.person.github }}">{{ site.person.github }}</a></li>
+                    {% endif %}
+
+                    {% if site.person.telegram %}
+                    <li><i class="fa fa-telegram"></i> <a href="https://t.me/{{ site.person.telegram }}">@{{ site.person.telegram }}</a></li>
+                    {% endif %}
+
+                    {% if site.person.linkedin %}
+                    <li><i class="fa fa-linkedin"></i> <a href="https://www.linkedin.com/in/{{ site.person.linkedin }}">{{ site.person.linkedin }}</a></li>
+                    {% endif %}
+
+                    {% if site.person.stackoverflow %}
+                    <li><i class="fa fa-stack-overflow"></i> <a href="http://stackoverflow.com/users/1252056{{ site.person.stackoverflow }}">{{ site.person.stackoverflow }}</a></li>
+                    {% endif %}
+                </ul>
+            </div>
+        </div>
+
+        <!-- Summary Section -->
+        {% if site.person.summary %}
+        <div class="row section section-border">
+            <div class="col-xs-3">
+                <h2>Summary</h2>
+            </div>
+            <div class="col-xs-9">
+                <p class="summary_first">{{ site.person.summary }}</p>
+            </div>
+        </div>
+        {% endif %}
+
+        <!-- Publications Section -->
+        <div class="row section section-border">
+            <div class="col-xs-3">
+                <h2>Publications</h2>
+            </div>
+            <div class="col-xs-7">
+                <ul>
+                    {% for item in site.publications %}
+                    <li><a href="{{ item.link }}">{{ item.name }}</a></li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+
+        <!-- Technical Skills Section -->
+        <div class="row section section-border">
+            <div class="col-xs-3">
+                <h2>Technical Skills</h2>
+                {% for item in site.person.hidden_tags %}
+                <b class="tag_hidden">{{ item.tag }}</b>
+                {% endfor %}
+            </div>
+            <div class="col-xs-9">
+                <h4>Key Competencies:</h4>
+                <ul>
+                    {% for item in site.technicalSkills.list %}
+                    <li>{{ item.tr }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+
+        <!-- Career Section -->
+        <div class="row career-section section section-border">
+            <div class="col-xs-3">
+                <h2>Career</h2>
+                <div class="pagebreak"></div>
+            </div>
+
+            <div class="col-xs-9">
+                {% for item in site.career %}
+                {% if item.break %}
+                <div class="pagebreak"></div>
+                {% endif %}
+
+                {% if item.pull_right %}
+                {% assign pull_right = "pull-right" %}
+                {% else %}
+                {% assign pull_right = "" %}
+                {% endif %}
+
+                <div class="jd {{ pull_right }}">
+                    <!-- Position Header -->
+                    <div class="row">
+                        <div class="col-xs-6 company-info">
+                            {% if item.logo_link %}
+                            <a href="{{ item.link }}" style="text-decoration: none !important">
+                                <img class="image_logo" src="{{ item.logo_link }}" alt="{{ item.company }} logo">
+                            </a>
+                            {% endif %}
+
+                            <div class="company-details">
+                                <div><b>{{ item.position }}</b></div>
+                                <div><a href="{{ item.link }}">{{ item.company }}</a></div>
+                            </div>
+                        </div>
+
+                        <div class="col-xs-6 pull-right">
+                            <h5 class="pull-right" style="text-align: right;">
+                                {{ item.dates }}<br>
+                                {% if item.location %}
+                                <i>({{ item.location }})</i>
+                                {% endif %}
+                            </h5>
+                        </div>
+                    </div>
+
+                    <!-- Applied Skills -->
+                    {% if item.skills.size > 0 %}
+                    <div class="row">
+                        <div class="col-xs-12 skills">
+                            <b>Applied skills: </b>
+                            {% for i in item.skills %}
+                            {{ i.skill }} ·
+                            {% endfor %}
+                        </div>
+                    </div>
+                    {% endif %}
+
+                    <!-- Position Summary -->
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <p>{{ item.summary }}</p>
+                        </div>
+                    </div>
+
+                    <!-- Key Results -->
+                    {% if item.accomplishments.size > 0 %}
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <b>Key results:</b>
+                            <ul>
+                                {% for itemm in item.accomplishments %}
+                                <li>{{ itemm.accomplishment }}</li>
+                                {% endfor %}
+                            </ul>
+                        </div>
+                    </div>
+                    {% endif %}
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+
+<!--    <div class="row section section-border side-project">-->
+<!--        <div class="col-xs-3">-->
+<!--            <h2>Side Projects</h2>-->
+<!--        </div>-->
+<!--        <div class="col-xs-9">-->
+<!--            {% for item in site.sideProjects %}-->
+<!--            <div class="jd">-->
+<!--                <div class="row">-->
+<!--                    <div class="col-xs-6">-->
+<!--                        <div style="display: inline-block; vertical-align: middle;">-->
+<!--                            <div><b>{{ item.name }}</b></div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                {% if item.skills.size > 0 %}-->
+<!--                <div class="row">-->
+<!--                    <div class="col-xs-12 skills">-->
+<!--                        <b>Applied skills: </b>-->
+<!--                        {% for i in item.skills %}-->
+<!--                        {{ i.skill }} ·-->
+<!--                        {% endfor %}-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                {% endif%}-->
+<!--                <div class="row">-->
+<!--                    <div class="col-xs-12">-->
+<!--                        <p>{{ item.description }}</p>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div class="row">-->
+<!--                    <div class="col-xs-12">-->
+<!--                        {% if item.accomplishments.size > 0 %}-->
+<!--                        <b>Selected accomplishments:</b>-->
+<!--                        {% endif %}-->
+<!--                        <ul>-->
+<!--                            {% for itemm in item.accomplishments %}-->
+<!--                            <li>{{itemm.accomplishment}}</li>-->
+<!--                            {% endfor %}-->
+<!--                        </ul>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--            {% endfor %}-->
+<!--        </div>-->
+<!--    </div>-->
+
+        <!-- Education Section -->
+        <div class="row section section-border">
+            <div class="col-xs-3">
+                <h2>Education</h2>
+            </div>
+
+            <div class="col-xs-9">
+                {% for item in site.education %}
+                <div class="row">
+                    <div class="col-xs-12">
+                        {% if item.logo_link %}
+                        <a href="{{ item.link }}" style="text-decoration: none !important">
+                            <img class="image_logo" src="{{ item.logo_link }}" alt="{{ item.name }} logo">
+                        </a>
+                        {% endif %}
+
+                        <div style="display: inline-block; vertical-align: middle;">
+                            <h4><b>{{ item.name }}</b></h4>
+                            <h4><b><a href="{{ item.link }}">{{ item.sub_name }}</a></b></h4>
+                        </div>
+                    </div>
+
+                    <div class="col-xs-12">
+                        <i class="fa fa-graduation-cap"></i> {{ item.degree }} ({{ item.dates }})
+                    </div>
+
+                    <div class="col-xs-12">{{ item.location }}</div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
