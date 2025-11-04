@@ -38,7 +38,7 @@ jobs:
         uses: browser-actions/setup-chrome@latest
       - name: Create PDF from site
         run: |
-          npm install -g puppeteer
+          npm install puppeteer
           node -e "
           const puppeteer = require('puppeteer');
           const path = require('path');
