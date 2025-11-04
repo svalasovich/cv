@@ -308,6 +308,8 @@ p {
   /* Standardize all content columns in print */
   .section .col-xs-9 {
     width: 75%;
+    float: right;
+    padding-right: 80px;
   }
 
   .section .col-xs-3 {
@@ -317,14 +319,6 @@ p {
   .row.career-section {
     padding-left: 15px;
     padding-right: 15px;
-  }
-
-  .row.career-section .col-xs-9 {
-    padding-left: 0px;
-  }
-
-  .row.career-section .col-xs-9 .jd.pull-right {
-    margin-left: 0;
   }
 
   .skills {

@@ -141,7 +141,6 @@ career:
       - accomplishment: Optimized the data-persistence path, delivering 5% faster writes in production while maintaining reliability and SLAs
       - accomplishment: Integrated new components with the legacy platform via an adapter/compatibility layer, enabling backward compatibility and a gradual rollout without disrupting existing consumers
   - position: Senior Software Engineer
-    break: true
     link: https://piesoft.us
     company: PieSoft
     location: United States
