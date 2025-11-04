@@ -61,6 +61,10 @@
 
             <div class="col-xs-5">
                 <ul class="list-unstyled">
+                    {% if site.person.pdf %}
+                    <li><i class="fa fa-file-pdf-o"></i> <a href="assets/cv.pdf">PDF</a></li>
+                    {% endif %}
+
                     {% if site.person.location %}
                     <li><i class="fa fa-map-marker"></i> {{ site.person.location }}</li>
                     {% endif %}

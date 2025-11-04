@@ -58,6 +58,7 @@ person:
   telegram:
   github: svalasovich
   stackoverflow:
+  pdf: assets/cv.pdf
   summary: Lead Software Engineer with 8+ years shipping systems that matter — from EVM/L2 integration and on-chain indexers to DePIN infrastructure, P2P network, and protocol design & implementation. I uncover real user needs, build the right thing, and deliver secure, scalable results.
   summary_additional:
 
