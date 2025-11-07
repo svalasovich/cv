@@ -87,14 +87,14 @@ career:
       - accomplishment: Contributed to the technical preparation for NFT & token sales (infrastructure, security checks, dry-runs)
       - accomplishment: Launched the public Testnet as part of the marketing campaign
       - accomplishment: Shipped the initial protocol release
-      - accomplishment: Provided technical leadership for a team of 2, delivering milestones on time
+      - accomplishment: Provided technical leadership for a team of 3, delivering milestones on time
+      - accomplishment: Contributed technical sections to the Whitepaper
+      - accomplishment: Multisig signer and one of the key custodians, reviewing and signing on-chain transactions to safeguard company funds.
       - accomplishment: Designed & implemented a secure P2P protocol
       - accomplishment: Designed & implemented backup & disaster-recovery for core data
       - accomplishment: Designed & developed a validator node
       - accomplishment: Designed & implemented storage for proofs
-      - accomplishment: Contributed technical sections to the Whitepaper
       - accomplishment: Designed & built data indexing and EVM integrations
-      - accomplishment: Multisig signer and one of the key custodians, reviewing and signing on-chain transactions to safeguard company funds.
   - position: Lead Software Engineer
     company: CERE Network
     link: https://cere.io
@@ -109,15 +109,15 @@ career:
       - skill: AWS, DigitalOcean
       - skill: Prometheus, Datadog, Grafana
     accomplishments:
+      - accomplishment: Provided technical leadership for core products — storage node, decentralized CDN node, and analytics tools — delivering roadmap milestones end-to-end
+      - accomplishment: "Company Hackathon — 2nd place (2022): delivered a user-activity observability MVP (I/O, per-data-type) for a decentralized storage system."
       - accomplishment: Designed and implemented a decentralized, secure, sharded storage node optimized for high-throughput video streaming
+      - accomplishment: Achieved x2 storage performance after architectural redesign and I/O path optimization
       - accomplishment: Built high-performance client SDKs in Go, Java/Kotlin, and JavaScript with a unified API surface
       - accomplishment: Integrated the platform with the Polkadot network to leverage on-chain security and utility features
-      - accomplishment: Provided technical leadership for core products — storage node, decentralized CDN node, and analytics tools — delivering roadmap milestones end-to-end
-      - accomplishment: Achieved x2 storage performance after architectural redesign and I/O path optimization
       - accomplishment: Designed and implemented a secure, high-throughput P2P protocol tailored for storage workloads
       - accomplishment: Implemented anti-entropy mechanisms (e.g., Merkle/gossip reconciliation) to maintain node consistency under churn
       - accomplishment: Designed and implemented cryptographic proofs for data replication, consistency, and content delivery, enforcing correctness and SLA guarantees
-      - accomplishment: "Company Hackathon — 2nd place (2022): delivered a user-activity observability MVP (I/O, per-data-type) for a decentralized storage system."
   - position: Senior Data Engineer
     link: https://www.epam.com/
     company: EPAM
@@ -159,6 +159,8 @@ career:
 
 technicalSkills:
   list:
+    - tr: "Technical leadership / Architecture & System Design / Developer Experience & CI/CD"
+    - tr: "Data-Driven Decisions / Team Growth"
     - tr: "Golang / Java / Kotlin"
     - tr: "libp2p / huma / chi / Echo / gRPC"
     - tr: "SQL: MySQL / PostgreSQL"
@@ -169,7 +171,6 @@ technicalSkills:
     - tr: "Docker / Kubernetes"
     - tr: "Spark / Hadoop / HDFS"
     - tr: "Kafka"
-    - tr: "Technical leadership"
 
 education:
   - name: Belarusian State University of Informatics and Radioelectronics
