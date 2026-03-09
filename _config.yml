@@ -50,7 +50,7 @@ person:
     - tag: "Data Migration"
     - tag: "Big Data"
   depiction:
-  profession: Lead Software Engineer
+  profession: Staff Software Engineer
   location:
   linkedin: svalasovich
   email: svalasovich+cv@gmail.com
@@ -59,7 +59,7 @@ person:
   github: svalasovich
   stackoverflow:
   pdf: assets/cv.pdf
-  summary: Lead Software Engineer with 8+ years shipping systems that matter — from EVM/L2 integration and on-chain indexers to DePIN infrastructure, P2P network, and protocol design & implementation. I uncover real user needs, build the right thing, and deliver secure, scalable results.
+  summary: Staff Software Engineer with 9 years of experience designing and operating scalable backend and distributed systems. Experienced in infrastructure services, data platforms, and blockchain technologies, with a focus on system architecture, reliability, and performance in production environments. Proven ability to turn complex problems into robust, scalable systems.
   summary_additional:
 
 publications:
@@ -85,16 +85,13 @@ career:
       - skill: Kubernetes, Prometheus
     accomplishments:
       - accomplishment: Contributed to the technical preparation for NFT & token sales (infrastructure, security checks, dry-runs)
-      - accomplishment: Launched the public Testnet as part of the marketing campaign
+      - accomplishment: Launched the public Mainnet
       - accomplishment: Shipped the initial protocol release
       - accomplishment: Provided technical leadership for a team of 3, delivering milestones on time
       - accomplishment: Contributed technical sections to the Whitepaper
       - accomplishment: Multisig signer and one of the key custodians, reviewing and signing on-chain transactions to safeguard company funds.
-      - accomplishment: Designed & implemented a secure P2P protocol
-      - accomplishment: Designed & implemented backup & disaster-recovery for core data
-      - accomplishment: Designed & developed a validator node
-      - accomplishment: Designed & implemented storage for proofs
-      - accomplishment: Designed & built data indexing and EVM integrations
+      - accomplishment: Designed & implemented a secure P2P protocol, backup & disaster-recovery for core data, validator node
+      - accomplishment: Built data indexing and EVM integrations
   - position: Lead Software Engineer
     company: CERE Network
     link: https://cere.io
