@@ -49,8 +49,12 @@ person:
     - tag: "Data Pipelines"
     - tag: "Data Migration"
     - tag: "Big Data"
+    - tag: "AI"
+    - tag: "LLM"
+    - tag: "Claude"
+    - tag: "Claude Code"
   depiction:
-  profession: Staff Software Engineer
+  profession: Senior Software Engineer
   location:
   linkedin: svalasovich
   email: svalasovich+cv@gmail.com
@@ -67,7 +71,7 @@ publications:
     link: https://arxiv.org/abs/2510.04620
 
 career:
-  - position: Staff Software Engineer
+  - position: Senior Software Engineer (Protocol Engineer)
     link: https://www.icn.global
     company: Impossible Cloud Network
     location: Germany
