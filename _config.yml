@@ -53,8 +53,9 @@ person:
     - tag: "LLM"
     - tag: "Claude"
     - tag: "Claude Code"
+    - tag: "AI Agent"
   depiction:
-  profession: Senior Software Engineer
+  profession: Staff Software Engineer
   location:
   linkedin: svalasovich
   email: svalasovich+cv@gmail.com
@@ -71,7 +72,7 @@ publications:
     link: https://arxiv.org/abs/2510.04620
 
 career:
-  - position: Senior Software Engineer (Protocol Engineer)
+  - position: Staff Software Engineer (Protocol Engineer)
     link: https://www.icn.global
     company: Impossible Cloud Network
     location: Germany
