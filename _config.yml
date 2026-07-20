@@ -147,7 +147,7 @@ career:
     company: PieSoft
     location: United States
     logo_link: assets/piesoft_logo.png
-    dates: May 2017 - Apr 2020
+    dates: May 2017 - Mar 2020
     summary: Scaled a GPU-accelerated Wi-Fi coverage algorithm—modeling building heights and wall materials—from a single node to a distributed cluster, enabling citywide simulations.
     skills:
       - skill: Java, Kotlin
