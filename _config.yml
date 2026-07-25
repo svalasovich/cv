@@ -10,7 +10,7 @@ person:
     - tag: "Staff Backend Engineer"
     - tag: "Backend Lead"
     - tag: "Backend"
-    - tag: "Distributed Systems Engineer"
+    - tag: "Distributed Systems"
     - tag: "High-Load Systems"
     - tag: "Technical Leadership"
     - tag: "Architecture & Design"
@@ -19,6 +19,7 @@ person:
     - tag: "REST API Design"
     - tag: "SDK Development"
     - tag: "Concurrency"
+    - tag: "Data structures"
     - tag: "Performance Optimization"
     - tag: "Low Latency"
     - tag: "Scalability"
@@ -52,8 +53,11 @@ person:
     - tag: "AI"
     - tag: "LLM"
     - tag: "Claude"
+    - tag: "ChatGPT"
+    - tag: "Gemini"
     - tag: "Claude Code"
     - tag: "AI Agent"
+    - tag: "Prompt Engineering"
   depiction:
   profession: Staff Software Engineer
   location:
@@ -165,14 +169,16 @@ technicalSkills:
     - tr: "Data-Driven Decisions / Team Growth"
     - tr: "Golang / Java / Kotlin"
     - tr: "libp2p / huma / chi / Echo / gRPC"
-    - tr: "SQL: MySQL / PostgreSQL"
-    - tr: "NoSQL: Redis / Cassandra / MongoDB / DynamoDB / HBase / Prometheus"
-    - tr: "REST / GraphQL"
+    - tr: "SQL: MySQL / PostgreSQL / Oracle / Aurora / Redshift / BigQuery / CockroachDB"
+    - tr: "NoSQL: Redis / Cassandra / MongoDB / DynamoDB / HBase / Prometheus / Firestore / Bigtable"
+    - tr: "REST / GraphQL / Avro / Protobuf"
     - tr: "AWS / GCP"
-    - tr: "Grafana / Kibana"
-    - tr: "Docker / Kubernetes"
-    - tr: "Spark / Hadoop / HDFS"
-    - tr: "Kafka"
+    - tr: "Grafana / Kibana / Datadog / OpenTelemetry"
+    - tr: "Docker / Kubernetes / Helm"
+    - tr: "Github Actions / Jenkins / Gitlab CI"
+    - tr: "Spark / Hadoop / HDFS / EMR / Athena / Dataflow / Dataproc / Beam"
+    - tr: "Kafka / RabbitMQ / Kinesis / SQS / PubSub"
+    - tr: "K6 / JMeter / Chaos Monkey"
 
 education:
   - name: Belarusian State University of Informatics and Radioelectronics
