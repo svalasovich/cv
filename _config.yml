@@ -77,12 +77,12 @@ publications:
 
 career:
   - position: Staff Software Engineer
-    link: https://www.icn.global
-    company: Impossible Cloud Network
+    link: https://www.impossiblecloud.com/
+    company: Impossible Cloud
     location: Germany
     logo_link: assets/icn_logo.png
     dates: Jun 2023 - present
-    summary: DePIN project building a decentralized cloud platform that connects enterprise-grade hardware with users, providing AWS EC2-like compute power.
+    summary: DePIN project building a decentralized cloud platform (160 PB) that connects enterprise-grade hardware providers (storage and GPU) with customers for storage and AI/compute capacity rental.
     skills:
       - skill: Golang
       - skill: Huma, chi, GraphQL, gRPC
@@ -98,9 +98,11 @@ career:
       - accomplishment: Shipped the initial protocol release
       - accomplishment: Provided technical leadership for a team of 3, delivering milestones on time
       - accomplishment: Contributed technical sections to the Whitepaper
-      - accomplishment: Multisig signer and one of the key custodians, reviewing and signing on-chain transactions to safeguard company funds.
+      - accomplishment: Multisig signer and one of the key custodians, reviewing and signing on-chain transactions to safeguard company funds
       - accomplishment: Designed & implemented a secure P2P protocol, backup & disaster-recovery for core data, validator node
       - accomplishment: Built data indexing and EVM integrations
+      - accomplishment: Optimized S3-compatible cold backup system (25 PB scale) — sped up 80% of operations by 50% by eliminating redundant operations, and doubled throughput by fixing data distribution skew
+      - accomplishment: Participated in investigation and resolution of data-loss incidents as the team's storage reliability expert
   - position: Lead Software Engineer
     company: CERE Network
     link: https://cere.io
